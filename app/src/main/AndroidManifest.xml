@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jonbott.knownspies">
+    package="com.davidk.oneStopClick">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".KnownSpiesApplication"
+        android:name="com.davidk.oneStopClick.KnownSpiesApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Activities.SpyList.SpyListActivity">
+        <activity android:name="com.davidk.oneStopClick.Activities.SpyList.SpyListActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,11 +22,11 @@
         </activity>
 
         <activity
-            android:name=".Activities.Details.SpyDetailsActivity"
+            android:name="com.davidk.oneStopClick.Activities.Details.SpyDetailsActivity"
             android:label="@string/title_activity_spy_details" />
 
         <activity
-            android:name=".Activities.SecretDetails.SecretDetailsActivity"
+            android:name="com.davidk.oneStopClick.Activities.SecretDetails.SecretDetailsActivity"
             android:label="@string/titls_activity_secret_details" />
     </application>
 

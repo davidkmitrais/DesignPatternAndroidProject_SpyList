@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context="com.jonbott.knownspies.Activities.SpyList.SpyListActivity">
+    tools:context="com.davidk.oneStopClick.Activities.SpyList.SpyListActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/spy_recycler_view"
